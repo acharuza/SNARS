@@ -23,25 +23,39 @@ def square_lattice(n: int, m: int) -> np.ndarray:
 
     return adj_matrix
 
+
 def chain(n: int) -> np.ndarray:
     """Generate a chain of size n."""
-    pass
+    size = n
+    adj_matrix = np.zeros((size, size), dtype=int)
+    next = np.arange(size - 1)
+    adj_matrix[next, next + 1] = 1
+    adj_matrix[next + 1, next] = 1
+    adj_matrix[0, len(adj_matrix) - 1] = 1
+    adj_matrix[len(adj_matrix) - 1, 0] = 1
+    return adj_matrix
+
+
 
 def complete_graph(n: int) -> np.ndarray:
     """Generate a complete graph of size n."""
     pass
 
+
 def weighted_graph(n: int, weight: float) -> np.ndarray:
     """Generate a weighted complete graph of size n with given weight."""
     pass
+
 
 def directed_graph(n: int) -> np.ndarray:
     """Generate a directed graph of size n."""
     pass
 
+
 def draw(adj_matrix: np.ndarray) -> None:
     """Draw the graph represented by the adjacency matrix."""
     pass
+
 
 def compute_vertex_degrees(adj_matrix: np.ndarray) -> np.ndarray:
     """Compute the vertex degrees of the graph represented by the adjacency matrix."""
@@ -49,4 +63,4 @@ def compute_vertex_degrees(adj_matrix: np.ndarray) -> np.ndarray:
 
 
 if __name__ == "__main__":
-    print(square_lattice(3, 5))
+    print(chain(5))
