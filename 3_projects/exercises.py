@@ -44,7 +44,7 @@ def exercise5(n=1000, m=3, p=0.01):
     axs[0, 0].set_title("BA Network Degree Histogram")
     axs[0, 0].set_xlabel("Degree")
     axs[0, 0].set_ylabel("Number of nodes")
-    textstr = f"Mean = {ba_mean:.2f}\nVariance = {ba_var:.2f}"
+    textstr = f"Expected = {ba_mean:.2f}\nVariance = {ba_var:.2f}"
     axs[0, 0].text(0.95, 0.95, textstr, transform=axs[0, 0].transAxes,
                    fontsize=12, verticalalignment='top', horizontalalignment='right',
                    bbox=dict(boxstyle="round,pad=0.3", facecolor='white', alpha=0.8))
@@ -54,7 +54,7 @@ def exercise5(n=1000, m=3, p=0.01):
     axs[0, 1].set_title("ER Graph Degree Histogram")
     axs[0, 1].set_xlabel("Degree")
     axs[0, 1].set_ylabel("Number of nodes")
-    textstr = f"Mean = {er_mean:.2f}\nVariance = {er_var:.2f}"
+    textstr = f"Expected = {er_mean:.2f}\nVariance = {er_var:.2f}"
     axs[0, 1].text(0.95, 0.95, textstr, transform=axs[0, 1].transAxes,
                    fontsize=12, verticalalignment='top', horizontalalignment='right',
                    bbox=dict(boxstyle="round,pad=0.3", facecolor='white', alpha=0.8))
