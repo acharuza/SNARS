@@ -1,0 +1,950 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d5" for="edge" attr.name="route_type" attr.type="long" />
+  <key id="d4" for="node" attr.name="color" attr.type="string" />
+  <key id="d3" for="node" attr.name="type_label" attr.type="string" />
+  <key id="d2" for="node" attr.name="lon" attr.type="double" />
+  <key id="d1" for="node" attr.name="lat" attr.type="double" />
+  <key id="d0" for="node" attr.name="name" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="8447">
+      <data key="d0">Piaseczno</data>
+      <data key="d1">52.066495</data>
+      <data key="d2">21.017315</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8449">
+      <data key="d0">Warszawa Jeziorki</data>
+      <data key="d1">52.110267</data>
+      <data key="d2">20.993152</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8453">
+      <data key="d0">Warszawa Służewiec</data>
+      <data key="d1">52.180641</data>
+      <data key="d2">20.987032</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8461">
+      <data key="d0">Warszawa Powązki</data>
+      <data key="d1">52.256079</data>
+      <data key="d2">20.972386</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8464">
+      <data key="d0">Warszawa Praga</data>
+      <data key="d1">52.27749</data>
+      <data key="d2">21.022383</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8465">
+      <data key="d0">Warszawa Toruńska</data>
+      <data key="d1">52.293781</data>
+      <data key="d2">21.013265</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8468">
+      <data key="d0">Warszawa Choszczówka</data>
+      <data key="d1">52.357706</data>
+      <data key="d2">20.972385</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8472">
+      <data key="d0">Wieliszew</data>
+      <data key="d1">52.428197</data>
+      <data key="d2">20.974753</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8475">
+      <data key="d0">Nieporęt</data>
+      <data key="d1">52.430616</data>
+      <data key="d2">21.032714</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8483">
+      <data key="d0">Warszawa Włochy</data>
+      <data key="d1">52.206044</data>
+      <data key="d2">20.914598</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8491">
+      <data key="d0">Warszawa Gocławek</data>
+      <data key="d1">52.238632</data>
+      <data key="d2">21.132697</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8492">
+      <data key="d0">Warszawa Wawer</data>
+      <data key="d1">52.223362</data>
+      <data key="d2">21.149605</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8493">
+      <data key="d0">Warszawa Anin</data>
+      <data key="d1">52.213001</data>
+      <data key="d2">21.159952</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8500">
+      <data key="d0">Otwock Świder</data>
+      <data key="d1">52.121018</data>
+      <data key="d2">21.251586</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8502">
+      <data key="d0">Warszawa Rembertów</data>
+      <data key="d1">52.257107</data>
+      <data key="d2">21.158564</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8451">
+      <data key="d0">Warszawa Okęcie</data>
+      <data key="d1">52.165764</data>
+      <data key="d2">20.987368</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8455">
+      <data key="d0">Warszawa Rakowiec</data>
+      <data key="d1">52.196784</data>
+      <data key="d2">20.966136</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8463">
+      <data key="d0">Warszawa Zoo</data>
+      <data key="d1">52.26352</data>
+      <data key="d2">21.017834</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8473">
+      <data key="d0">Zegrze Południowe</data>
+      <data key="d1">52.451935</data>
+      <data key="d2">21.008289</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8477">
+      <data key="d0">Radzymin</data>
+      <data key="d1">52.424292</data>
+      <data key="d2">21.177399</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8484">
+      <data key="d0">Warszawa Centralna</data>
+      <data key="d1">52.228765</data>
+      <data key="d2">21.002869</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8486">
+      <data key="d0">Warszawa Ochota</data>
+      <data key="d1">52.225818</data>
+      <data key="d2">20.990822</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8489">
+      <data key="d0">Warszawa Wschodnia</data>
+      <data key="d1">52.251503</data>
+      <data key="d2">21.052143</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8494">
+      <data key="d0">Warszawa Międzylesie</data>
+      <data key="d1">52.203781</data>
+      <data key="d2">21.169147</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8496">
+      <data key="d0">Warszawa Miedzeszyn</data>
+      <data key="d1">52.172652</data>
+      <data key="d2">21.200219</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8497">
+      <data key="d0">Warszawa Falenica</data>
+      <data key="d1">52.161934</data>
+      <data key="d2">21.210897</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8498">
+      <data key="d0">Michalin</data>
+      <data key="d1">52.14818</data>
+      <data key="d2">21.224621</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8504">
+      <data key="d0">Warszawa Wola Grzybowska</data>
+      <data key="d1">52.25286</data>
+      <data key="d2">21.250422</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8506">
+      <data key="d0">Sulejówek Miłosna</data>
+      <data key="d1">52.240558</data>
+      <data key="d2">21.298774</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8575">
+      <data key="d0">Warszawa Grochów</data>
+      <data key="d1">52.255503</data>
+      <data key="d2">21.084213</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8448">
+      <data key="d0">Nowa Iwiczna</data>
+      <data key="d1">52.091426</data>
+      <data key="d2">20.995245</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8456">
+      <data key="d0">Warszawa Aleje Jerozolimskie</data>
+      <data key="d1">52.206047</data>
+      <data key="d2">20.941004</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8458">
+      <data key="d0">Warszawa Wola</data>
+      <data key="d1">52.229784</data>
+      <data key="d2">20.957835</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8459">
+      <data key="d0">Warszawa Młynów</data>
+      <data key="d1">52.239117</data>
+      <data key="d2">20.958458</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8460">
+      <data key="d0">Warszawa Koło</data>
+      <data key="d1">52.246229</data>
+      <data key="d2">20.959019</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8462">
+      <data key="d0">Warszawa Gdańska</data>
+      <data key="d1">52.259142</data>
+      <data key="d2">20.99209</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8467">
+      <data key="d0">Warszawa Płudy</data>
+      <data key="d1">52.334048</data>
+      <data key="d2">20.985907</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8469">
+      <data key="d0">Legionowo</data>
+      <data key="d1">52.401921</data>
+      <data key="d2">20.94098</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8470">
+      <data key="d0">Legionowo Piaski</data>
+      <data key="d1">52.412611</data>
+      <data key="d2">20.942724</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8479">
+      <data key="d0">Piastów</data>
+      <data key="d1">52.182596</data>
+      <data key="d2">20.842771</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8481">
+      <data key="d0">Warszawa Ursus Niedźwiadek</data>
+      <data key="d1">52.191462</data>
+      <data key="d2">20.870049</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8482">
+      <data key="d0">Warszawa Ursus</data>
+      <data key="d1">52.196388</data>
+      <data key="d2">20.885295</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8487">
+      <data key="d0">Warszawa Powiśle</data>
+      <data key="d1">52.233684</data>
+      <data key="d2">21.028057</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8490">
+      <data key="d0">Warszawa Olszynka Grochowska</data>
+      <data key="d1">52.249855</data>
+      <data key="d2">21.106496</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8503">
+      <data key="d0">Warszawa Wesoła</data>
+      <data key="d1">52.254101</data>
+      <data key="d2">21.223916</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8530">
+      <data key="d0">Warszawa Targówek</data>
+      <data key="d1">52.264251</data>
+      <data key="d2">21.051748</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8450">
+      <data key="d0">Warszawa Dawidy</data>
+      <data key="d1">52.128721</data>
+      <data key="d2">20.991118</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8452">
+      <data key="d0">Warszawa Lotnisko Chopina</data>
+      <data key="d1">52.169639</data>
+      <data key="d2">20.975179</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8454">
+      <data key="d0">Warszawa Żwirki i Wigury</data>
+      <data key="d1">52.193414</data>
+      <data key="d2">20.980286</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8457">
+      <data key="d0">Warszawa Zachodnia (Peron 9)</data>
+      <data key="d1">52.222057</data>
+      <data key="d2">20.961357</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8466">
+      <data key="d0">Warszawa Żerań</data>
+      <data key="d1">52.314239</data>
+      <data key="d2">20.998842</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8471">
+      <data key="d0">Michałów-Reginów</data>
+      <data key="d1">52.422587</data>
+      <data key="d2">20.962855</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8474">
+      <data key="d0">Wieliszew Centrum</data>
+      <data key="d1">52.443341</data>
+      <data key="d2">20.995235</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8476">
+      <data key="d0">Dąbkowizna</data>
+      <data key="d1">52.423804</data>
+      <data key="d2">21.086105</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8478">
+      <data key="d0">Pruszków</data>
+      <data key="d1">52.168223</data>
+      <data key="d2">20.798947</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8480">
+      <data key="d0">Warszawa Zachodnia</data>
+      <data key="d1">52.220141</data>
+      <data key="d2">20.964975</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8485">
+      <data key="d0">Warszawa Śródmieście</data>
+      <data key="d1">52.229363</data>
+      <data key="d2">21.007609</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8488">
+      <data key="d0">Warszawa Stadion</data>
+      <data key="d1">52.24492</data>
+      <data key="d2">21.04401</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8495">
+      <data key="d0">Warszawa Radość</data>
+      <data key="d1">52.18573</data>
+      <data key="d2">21.187172</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8499">
+      <data key="d0">Józefów</data>
+      <data key="d1">52.135916</data>
+      <data key="d2">21.236818</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8501">
+      <data key="d0">Otwock</data>
+      <data key="d1">52.110199</data>
+      <data key="d2">21.262373</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <node id="8505">
+      <data key="d0">Sulejówek</data>
+      <data key="d1">52.247773</data>
+      <data key="d2">21.277006</data>
+      <data key="d3">Rail</data>
+      <data key="d4">orange</data>
+    </node>
+    <edge source="8447" target="8448">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8449" target="8448">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8449" target="8450">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8453" target="8451">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8453" target="8452">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8453" target="8454">
+      <data key="d5">2</data>
+      <data key="d6">4</data>
+    </edge>
+    <edge source="8461" target="8460">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8461" target="8462">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8464" target="8463">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8464" target="8465">
+      <data key="d5">2</data>
+      <data key="d6">3</data>
+    </edge>
+    <edge source="8464" target="8530">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8465" target="8464">
+      <data key="d5">2</data>
+      <data key="d6">3</data>
+    </edge>
+    <edge source="8465" target="8466">
+      <data key="d5">2</data>
+      <data key="d6">3</data>
+    </edge>
+    <edge source="8468" target="8467">
+      <data key="d5">2</data>
+      <data key="d6">3</data>
+    </edge>
+    <edge source="8468" target="8469">
+      <data key="d5">2</data>
+      <data key="d6">3</data>
+    </edge>
+    <edge source="8472" target="8471">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8472" target="8474">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8472" target="8475">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8475" target="8472">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8475" target="8476">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8483" target="8480">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8483" target="8482">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8491" target="8490">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8491" target="8492">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8492" target="8491">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8492" target="8493">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8493" target="8492">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8493" target="8494">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8500" target="8499">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8500" target="8501">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8502" target="8489">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8502" target="8503">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8451" target="8450">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8451" target="8453">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8455" target="8454">
+      <data key="d5">2</data>
+      <data key="d6">4</data>
+    </edge>
+    <edge source="8455" target="8456">
+      <data key="d5">2</data>
+      <data key="d6">4</data>
+    </edge>
+    <edge source="8463" target="8462">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8463" target="8464">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8473" target="8474">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8477" target="8476">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8484" target="8480">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8484" target="8489">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8486" target="8480">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8486" target="8485">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8489" target="8484">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8489" target="8488">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8489" target="8502">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8489" target="8530">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8489" target="8575">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8494" target="8493">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8494" target="8495">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8496" target="8495">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8496" target="8497">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8497" target="8496">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8497" target="8498">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8498" target="8497">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8498" target="8499">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8504" target="8503">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8504" target="8505">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8506" target="8505">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8575" target="8489">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8575" target="8490">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8448" target="8447">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8448" target="8449">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8456" target="8455">
+      <data key="d5">2</data>
+      <data key="d6">4</data>
+    </edge>
+    <edge source="8456" target="8457">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8456" target="8480">
+      <data key="d5">2</data>
+      <data key="d6">3</data>
+    </edge>
+    <edge source="8458" target="8457">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8458" target="8459">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8459" target="8458">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8459" target="8460">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8460" target="8459">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8460" target="8461">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8462" target="8461">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8462" target="8463">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8467" target="8466">
+      <data key="d5">2</data>
+      <data key="d6">3</data>
+    </edge>
+    <edge source="8467" target="8468">
+      <data key="d5">2</data>
+      <data key="d6">3</data>
+    </edge>
+    <edge source="8469" target="8468">
+      <data key="d5">2</data>
+      <data key="d6">3</data>
+    </edge>
+    <edge source="8469" target="8470">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8470" target="8469">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8470" target="8471">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8479" target="8478">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8479" target="8481">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8481" target="8479">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8481" target="8482">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8482" target="8481">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8482" target="8483">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8487" target="8485">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8487" target="8488">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8490" target="8491">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8490" target="8575">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8503" target="8502">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8503" target="8504">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8530" target="8464">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8530" target="8489">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8450" target="8449">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8450" target="8451">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8452" target="8453">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8454" target="8453">
+      <data key="d5">2</data>
+      <data key="d6">4</data>
+    </edge>
+    <edge source="8454" target="8455">
+      <data key="d5">2</data>
+      <data key="d6">4</data>
+    </edge>
+    <edge source="8457" target="8456">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8457" target="8458">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8466" target="8465">
+      <data key="d5">2</data>
+      <data key="d6">3</data>
+    </edge>
+    <edge source="8466" target="8467">
+      <data key="d5">2</data>
+      <data key="d6">3</data>
+    </edge>
+    <edge source="8471" target="8470">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8471" target="8472">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8474" target="8472">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8474" target="8473">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8476" target="8475">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8476" target="8477">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8478" target="8479">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8480" target="8456">
+      <data key="d5">2</data>
+      <data key="d6">4</data>
+    </edge>
+    <edge source="8480" target="8483">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8480" target="8484">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8480" target="8486">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8485" target="8486">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8485" target="8487">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8488" target="8487">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8488" target="8489">
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+    </edge>
+    <edge source="8495" target="8494">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8495" target="8496">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8499" target="8498">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8499" target="8500">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8501" target="8500">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8505" target="8504">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="8505" target="8506">
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+  </graph>
+</graphml>
