@@ -49,7 +49,7 @@ def compute_modularity(G, communities):
             for v in G.neighbors(u):
                 if v in nodes:
                     L_c += G[u][v].get("weight", 1)
-        Q += (L_c / 2 * m) - (K_c / (2 * m)) ** 2
+        Q += (L_c / (2 * m)) - (K_c / (2 * m)) ** 2
 
     return Q
 
