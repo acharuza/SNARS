@@ -5,7 +5,7 @@ import random
 
 
 def sign(x):
-    """Returns 1 if x > 0, -1 if x < 0. Returns 0 if x == 0."""
+    """returns 1 if x >= 0, -1 if x < 0. i decided that if its 0 then node doesnt have opinion so return 0"""
     if x > 0:
         return 1
     elif x < 0:
@@ -32,7 +32,7 @@ class ModifiedVoterModel:
         self.ideology = {n: np.random.normal(0, ideology_std) for n in self.nodes}
 
     def step(self):
-        """Pick a random node and update opinion based on Neighbors + Propaganda + Ideology"""
+        """pick random node and update its opinion based on neighbors, propaganda, ideology, and anti-conformity"""
         node = random.choice(self.nodes)
 
         peer_pressure = sum(
