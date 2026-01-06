@@ -90,11 +90,17 @@ def calculate_epidemic_threshold_ba(avg_degree, avg_squared_degree):
     return avg_degree / avg_squared_degree
 
 
-def get_averaged_steady_state(G, beta, gamma, runs=10):
+def get_averaged_steady_state(G, beta, gamma, runs=10, initial_infected_fraction=0.05):
     """runs simultations multiple times and averages the steady state values"""
     final_values = []
     for _ in range(runs):
-        history = simulate_sis(G, beta, gamma, max_steps=500)
+        history = simulate_sis(
+            G,
+            beta,
+            gamma,
+            max_steps=500,
+            initial_infected_fraction=initial_infected_fraction,
+        )
 
         # get steady state from the last 50 steps of this run
         if len(history) > 50:
@@ -137,7 +143,9 @@ for lam in tqdm(lambda_values, desc="Simulating SIS Model", total=len(lambda_val
     beta = lam * gamma
 
     # infect neighbors in the network
-    avg_net = get_averaged_steady_state(G, beta, gamma, runs=10)
+    avg_net = get_averaged_steady_state(
+        G, beta, gamma, runs=10, initial_infected_fraction=initial_infected_fraction
+    )
     network_results.append(avg_net)
 
     # analytical theory
@@ -194,7 +202,9 @@ for lam in tqdm(
 ):
     beta = lam * gamma
 
-    avg_net_ba = get_averaged_steady_state(G_ba, beta, gamma, runs=10)
+    avg_net_ba = get_averaged_steady_state(
+        G_ba, beta, gamma, runs=10, initial_infected_fraction=initial_infected_fraction
+    )
     network_results_ba.append(avg_net_ba)
 
 plt.figure(figsize=(10, 6))
